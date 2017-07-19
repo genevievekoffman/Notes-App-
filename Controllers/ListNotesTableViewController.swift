@@ -22,7 +22,7 @@ class ListNotesTableViewController: UITableViewController {
             CoreDataHelper.deleteNoteObject(noteObject: notes[indexPath.row])
             //2
             notes = CoreDataHelper.retrieveNotes()
-        }
+        } // great 
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
